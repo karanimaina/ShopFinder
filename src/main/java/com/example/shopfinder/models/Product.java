@@ -12,6 +12,8 @@ public class Product {
     private String description;
     private String price;
     private String quality;
+    @ManyToOne
+    private Business business;
     private String weight;
 
 }
